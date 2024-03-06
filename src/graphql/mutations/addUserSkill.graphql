@@ -1,0 +1,5 @@
+mutation addUserSkill($input: AddUserSkillInput!) {
+  addUserSkill(input: $input) {
+    id
+  }
+}

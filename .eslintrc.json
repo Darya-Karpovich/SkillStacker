@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "alloy",
+    "alloy/react",
+    "alloy/typescript",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "interface-over-type-literal": "off"
+  },
+  "ignorePatterns": ["**/generated.ts"]
+}

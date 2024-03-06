@@ -1,0 +1,14 @@
+query getCurrentUser {
+  currentUser {
+    id
+    email
+    name
+    surname
+    skills {
+      id
+      name
+      experienceValue
+      likeValue
+    }
+  }
+}

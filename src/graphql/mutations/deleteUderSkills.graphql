@@ -1,0 +1,3 @@
+mutation deleteUserSkills($input: DeleteUserSkillsInput!) {
+  deleteUserSkills(input: $input) 
+}

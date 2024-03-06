@@ -1,0 +1,13 @@
+query getUser($input: UserInput!) {
+  user(input: $input) {
+    id
+    name
+    surname
+    skills {
+      id
+      name
+      experienceValue
+      likeValue
+    }
+  }
+}

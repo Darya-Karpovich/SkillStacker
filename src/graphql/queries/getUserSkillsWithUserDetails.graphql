@@ -1,0 +1,17 @@
+query getUserSkillsWithUserDetails {
+    userSkillsWithUserDetails {
+      id
+      likeValue
+      experienceValue
+      user {
+        id
+        name
+        surname
+
+      }
+      skill {
+        id
+        name
+      }
+    }
+  }
